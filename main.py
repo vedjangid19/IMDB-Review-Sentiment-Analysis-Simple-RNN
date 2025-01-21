@@ -37,13 +37,13 @@ def predict_sentiment(review):
 
 # Step 4: User Input and Prediction
 # Example review for prediction
-example_review = "This movie was fantastic! The acting was great and the plot was thrilling."
+# example_review = "This movie was fantastic! The acting was great and the plot was thrilling."
 
-sentiment,score=predict_sentiment(example_review)
+# sentiment,score=predict_sentiment(example_review)
 
-print(f'Review: {example_review}')
-print(f'Sentiment: {sentiment}')
-print(f'Prediction Score: {score}')
+# print(f'Review: {example_review}')
+# print(f'Sentiment: {sentiment}')
+# print(f'Prediction Score: {score}')
 
 
 import streamlit as st
